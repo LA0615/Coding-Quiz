@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Javascript Coding Quiz</title>
+</head>
+
+<body>
+<header>
+  <h1>Javascript Coding Quiz</h1>
+  <p>Directions: Click Start Button to Begin</p>
+</header>
+
+<!--Need to create a Start button-->
+<button id='start-button'>START QUIZ</button>
+
+<!--Need to create quiz questions and a timer-->
+  <h3 id="time"></h3>
+<div id="quiz">
+  <h1>Question: <span id="question-text"></span></h1>
+  <h2>Answers: <span id="answers-text"></span></h2>
+</div>
+
+<!--Form box for initials and submitting score-->
+<div id="end-game">
+    <h1>You are all done!</h1>
+    <h2 id="score"></h2>
+<form>
+    <label for="initials">Enter Your Initials Here:</label>
+    <input type="text" id="initials" name="initials">
+    <input type="submit" value="submit">
+</form>
+</div>
+
+<script type="text/Javascript" src="/assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+header { 
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 36px;
+}
